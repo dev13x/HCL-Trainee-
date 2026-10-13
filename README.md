@@ -10,6 +10,7 @@ Daily practice code from the HCL Java training, organised by module and day.
 | 02 | OOP: constructors, inheritance, overloading, overriding, encapsulation, access modifiers | [day02](core-java-module1/src/day02) |
 | 03 | Abstraction, interfaces, collections (LinkedList, ArrayList, Stack) | [day03](core-java-module1/src/day03) |
 | 04 | Queue, Deque, Stack with ArrayDeque, HashMap, Comparable and toString | [day04](core-java-module1/src/day04) |
+| 05 | Wrapper classes and autoboxing, generics, Comparable vs Comparator, functional interfaces and lambda expressions | [day05](core-java-module1/src/day05) · [notes](core-java-module1/docs/day05-comparable-vs-comparator.md) |
 
 ## Structure
 
