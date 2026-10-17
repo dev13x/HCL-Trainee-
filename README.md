@@ -40,6 +40,7 @@ In IntelliJ: right-click `src` → Mark Directory as → Sources Root, then run 
 | Assessment | Topics | Code |
 | --- | --- | --- |
 | Assessment 1 | OOP Inheritance, Abstract Classes, Salary Structure, Bonus Calculation, Sorting by Bonus | [assessment1](assignment/assessment1) |
+| Assessment 2 | Multi-User Shopping Cart, Custom Exceptions, Product Hierarchy, Thread-safe Carts, Console UI | [assessment2](assignment/assessment2) |
 
 ### Running Assessment 1
 
@@ -48,4 +49,13 @@ From workspace root:
 ```powershell
 javac -d out (Get-ChildItem -Path "assignment\assessment1" -Filter "*.java" -Recurse | ForEach-Object { $_.FullName })
 java -cp out assignment.assessment1.app.FestivalBonusApp
+```
+
+### Running Assessment 2
+
+From workspace root:
+
+```powershell
+javac -d out (Get-ChildItem -Path "assignment\assessment2" -Filter "*.java" -Recurse | ForEach-Object { $_.FullName })
+java -cp out assignment.assessment2.ui.ShoppingCartApp
 ```
