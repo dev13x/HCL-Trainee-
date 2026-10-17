@@ -34,3 +34,18 @@ java -cp out day04.sorting.StudentSortExample
 ```
 
 In IntelliJ: right-click `src` → Mark Directory as → Sources Root, then run any class that has a `main` method.
+
+## Assignments
+
+| Assessment | Topics | Code |
+| --- | --- | --- |
+| Assessment 1 | OOP Inheritance, Abstract Classes, Salary Structure, Bonus Calculation, Sorting by Bonus | [assessment1](assignment/assessment1) |
+
+### Running Assessment 1
+
+From workspace root:
+
+```powershell
+javac -d out (Get-ChildItem -Path "assignment\assessment1" -Filter "*.java" -Recurse | ForEach-Object { $_.FullName })
+java -cp out assignment.assessment1.app.FestivalBonusApp
+```
